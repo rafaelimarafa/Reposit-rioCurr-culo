@@ -10,7 +10,7 @@ void InitGame(Game *g)
     g->music = LoadMusicStream("MapMusic.mp3");
     g->Shoot = LoadSound("ShootSound.mp3");
     g->Enemy = LoadSound("EnemyDiying.mp3");
-    g->curr_map = 7;
+    g->curr_map = 0;
     g->num_maps = 10;
     g->hero.pos = (Rectangle){150, 300, STD_SIZE_X, STD_SIZE_Y};
     g->hero.color = WHITE;
